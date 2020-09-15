@@ -6,11 +6,15 @@ class Settings:
         # Screen Settings
         self.screen_width = 1200
         self.screen_height = 800
+        self.fullscreen = False
         self.bg_color = (230, 230, 230)
         self.bullets_allowed = 5
 
         # Ship settings
         self.ship_speed = 5
+
+        # Alien settings
+        self.alien_speed = 1
         
         # Bullet settings
         self.bullet_speed = 1.0

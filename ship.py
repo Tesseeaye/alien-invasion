@@ -14,8 +14,9 @@ class Ship:
         self.image = py.image.load('images/ship.bmp')
         self.rect = self.image.get_rect()
 
-        # Start each new ship at the botytom of the screen
+        # Start each new ship at the bottom of the screen
         self.rect.midbottom = self.screen_rect.midbottom
+        self.rect.y = self.settings.screen_height - 80
 
         # Store a decimal value for the ship's horizontal position
         self.x = float(self.rect.x)
